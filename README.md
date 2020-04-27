@@ -12,6 +12,10 @@ Ashwin is a senior Electrical Engineer with a Computer Design focus at UCSD. Ami
 
 Jerry is a senior Electrical Engineer with a Computer Systems and Data Communications focus at UCSD. Aside from designing and writing programs, and building circuits, he likes to play chess and run on treadmills.
 
+Po is a junior Electrical Engineer with a focus in Machine Learning at UCSD. He has worked hard to build up his technical skills and wants to apply them to help better people's lives. In his free time, he likes to play board games, watch shows, and catch up on the sleep he never gets.
+
+Tommy is a junior Electrical Engineer with a focus in Machine Learning at UCSD.In addition to interest in programming and robotics, he also enjoys outdoor activities and watching sitcoms.
+
 ## Our Survey Results
 
 ## Our Research
