@@ -4,7 +4,7 @@
 # In[2]:
 
 
-get_ipython().magic(u'matplotlib inline')
+#get_ipython().magic(u'matplotlib inline')
 
 
 # 
@@ -667,7 +667,7 @@ print("max_target_len:", max_target_len)
 # ~~~~~~~
 # 
 # The encoder RNN iterates through the input sentence one token
-# (e.g. word) at a time, at each time step outputting an “output” vector
+# (e.g. word) at a time, at each time step outputting an “output” vector
 # and a “hidden state” vector. The hidden state vector is then passed to
 # the next time step, while the output vector is recorded. The encoder
 # transforms the context it saw at each point in the sequence into a set
@@ -801,7 +801,7 @@ class EncoderRNN(nn.Module):
 # we calculate attention weights, or energies, using the hidden state of
 # the decoder from the current time step only. Bahdanau et al.’s attention
 # calculation requires knowledge of the decoder’s state from the previous
-# time step. Also, Luong et al. provides various methods to calculate the
+# time step. Also, Luong et al. provides various methods to calculate the
 # attention energies between the encoder output and decoder output which
 # are called “score functions”:
 # 
@@ -1413,7 +1413,7 @@ print('Models built and ready to go!')
 # 
 
 # In[19]:
-
+'''
 
 # Configure training/optimization
 clip = 50.0
@@ -1451,7 +1451,7 @@ for state in decoder_optimizer.state.values():
 print("Starting Training!")
 trainIters(model_name, voc, pairs, encoder, decoder, encoder_optimizer, decoder_optimizer,
            embedding, encoder_n_layers, decoder_n_layers, save_dir, n_iteration, batch_size,
-           print_every, save_every, clip, corpus_name, loadFilename)
+           print_every, save_every, clip, corpus_name, loadFilename)'''
 
 
 # Run Evaluation
